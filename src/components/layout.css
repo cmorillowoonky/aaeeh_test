@@ -390,7 +390,8 @@ p {
   padding-left: 0;
   padding-right: 0;
   padding-top: 0;
-  margin-bottom: 1.45rem;
+  
+  font-family: 'Montserrat';
 }
 figure {
   margin-left: 0;
@@ -625,11 +626,6 @@ pre tt:before,
 pre tt:after {
   content: "";
 }
-@media only screen and (max-width: 480px) {
-  html {
-    font-size: 100%;
-  }
-}
 
 
 .banner{
@@ -645,6 +641,7 @@ height: 532px;
 
 .centerLogo{
   margin-top: 55px;
+  
 }
 
 .hoverlindo:hover {
@@ -800,6 +797,11 @@ footer{
   
 }
 
+  .subtitle{
+  font-family: 'Montserrat';
+  font-weight: 400;
+}
+
 .temariopreliminar :before{
   content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
   color:#00A97D; /* Change the color */
@@ -813,4 +815,40 @@ footer{
 .centerul{
 
   padding:150px;
+}
+
+
+.contacto{
+  justify-content: center;
+  padding-top:100px;
+  padding-bottom: 100px;
+ 
+}
+
+.itemscontacto{
+  display: flex;
+  padding-left: 500px;
+  
+}
+
+.icon{
+width: 2em;
+margin-right: 20px;
+  
+}
+
+
+
+.bgnac{
+  display: flex;
+  align-items: center;
+  padding-bottom: 1rem;
+  
+}
+.bgimg{
+
+  padding-right: 3rem;
+  
+  width: 169px;
+  height: auto;
 }

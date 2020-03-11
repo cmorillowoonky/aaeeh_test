@@ -13,13 +13,16 @@ const Header = () => (
         <ul style={{
             listStyle:'none',
             display:'flex',
-            justifyContent: 'space-evenly'}}>
+            justifyContent: 'space-evenly',
+            
+            
+           }}>
 
             <li>
-                <img alt="AAEEH logo" src={logo}/>
+                <Link to="/"><img  style={{width:'100%', height:'auto'}}alt="AAEEH logo" src={logo} alt="aaeeh home"/></Link>
             </li>
             <li class="centerLogo">
-                <Link class="hoverlindo" to="/comiteOrganizador">Comité Organizador</Link>
+                <Link  class="hoverlindo" to="/comiteOrganizador">Comité Organizador</Link>
             </li>
             <li class="centerLogo">
                 <Link class="hoverlindo" to="/invitadosExtranjeros">Invitados Extranjeros</Link>
