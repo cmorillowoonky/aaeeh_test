@@ -16,6 +16,8 @@ import pinero from "../images/pinero.png"
 import reggiardo from "../images/reggiardo.png"
 import sorda from "../images/sorda.png"
 import villamil from "../images/villamil.png"
+import luis from "../images/luis.png"
+import marciano from "../images/marciano.png"
 
 
 const InvitadosNacionales = () =>(
@@ -23,7 +25,7 @@ const InvitadosNacionales = () =>(
         <SEO title="Home" />
         <Header/>
         
-        <img src={header_invitados_nacionales}/>
+        <img style={{width:'100%', height:'auto'}} src={header_invitados_nacionales}/>
 
        
         
@@ -35,46 +37,53 @@ const InvitadosNacionales = () =>(
        
        
 
-
+        <h2 style={{display:'grid', alignContent:'center', justifyContent:'center', marginTop:'3em', fontSize:'30pt'}}>Coordinadores</h2><br></br>
        
-      
+      <div style={{display:'flex', alignContent:'center', justifyContent:'center', paddingLeft:'5em'}}>
         
 
-        <h2>Coordinadores</h2><br></br>
+        <div style={{display:'grid', margin:'3em'}}>
 
 
-       
-        
-        <p>Dr. Luis Colombato</p>
-        
-       <br></br>
+            <div class="bgnac">
+            <img class="bgimg" src={luis}/>
+                <p>Dr. Luis Colombato</p>
+
+                </div>
+                
+            
+
+                <div class="bgnac">
+                <img class="bgimg" src={descalzi}/>
+                <p> Dra. Valeria Descalzi</p>
+                </div>
+                
 
 
-        <div class="bgnac">
-        <img class="bgimg" src={descalzi}/>
-        <p> Dra. Valeria Descalzi</p>
+                <div class="bgnac">
+                <img  class="bgimg"src={fainboim}/>
+                <p>  Dr. Hugo Fainboim</p>
+                </div>
+
+                <div  class="bgnac">
+                <img class="bgimg" src={fassio}/>
+                <p>Dr. Eduardo Fassio</p>
+                </div>
+
+                <div class ="bgnac">
+                <img class="bgimg" src={fassio}/>
+                <p>Dra. Nora Fernández</p>
+                </div>
+
+                <div class ="bgnac">
+                <img class="bgimg" src={marciano}/>
+                <p>Dr. Sebastián Marciano</p>
+                </div>
+
         </div>
-        <br></br>
 
 
-        <div class="bgnac">
-        <img  class="bgimg"src={fainboim}/>
-        <p>  Dr. Hugo Fainboim</p><br></br>
-        </div>
-
-        <div  class="bgnac">
-        <img class="bgimg" src={fassio}/>
-        <p>Dr. Eduardo Fassio</p>
-        </div>
-
-
-        <p>Dra. Nora Fernández</p>
-        <p>Dr. Sebastián Marciano</p><br></br>
-
-
-
-
-
+        <div style={{display:'grid',margin:'3em'}}>
         <div class="bgnac">
         <img class="bgimg" src={pinero}/>
         <p>Dr. Federico Piñero</p>
@@ -85,8 +94,7 @@ const InvitadosNacionales = () =>(
         <p>Dra. María Virginia Reggiardo</p>
         </div>
         
-        <br></br>
-
+        
 
         <div class="bgnac">
         <img class="bgimg" src={ruf}/>
@@ -98,14 +106,14 @@ const InvitadosNacionales = () =>(
         <p>  Dr. Juan Sordá</p>
         </div>
         
-        <br></br>
+        
       
         <div class="bgnac">
         <img class="bgimg" src={villamil}/>
         <p>   Dra. Alejandra Villamil</p>
         </div>
 
-        <br></br>
+      
 
 
         <div  class="bgnac">
@@ -114,11 +122,11 @@ const InvitadosNacionales = () =>(
         </div>
 
 
-        <br></br>
+       </div>
 
 
         
-
+        </div>
       
 
     </Layout>

@@ -362,26 +362,7 @@ ol {
   list-style-position: outside;
   list-style-image: none;
 }
-dl {
-  margin-left: 0;
-  margin-right: 0;
-  margin-top: 0;
-  padding-bottom: 0;
-  padding-left: 0;
-  padding-right: 0;
-  padding-top: 0;
-  margin-bottom: 1.45rem;
-}
-dd {
-  margin-left: 0;
-  margin-right: 0;
-  margin-top: 0;
-  padding-bottom: 0;
-  padding-left: 0;
-  padding-right: 0;
-  padding-top: 0;
-  margin-bottom: 1.45rem;
-}
+
 p {
   margin-left: 0;
   margin-right: 0;
@@ -393,16 +374,7 @@ p {
   
   font-family: 'Montserrat';
 }
-figure {
-  margin-left: 0;
-  margin-right: 0;
-  margin-top: 0;
-  padding-bottom: 0;
-  padding-left: 0;
-  padding-right: 0;
-  padding-top: 0;
-  margin-bottom: 1.45rem;
-}
+
 pre {
   margin-left: 0;
   margin-right: 0;
@@ -450,16 +422,7 @@ blockquote {
   padding-top: 0;
   margin-bottom: 1.45rem;
 }
-form {
-  margin-left: 0;
-  margin-right: 0;
-  margin-top: 0;
-  padding-bottom: 0;
-  padding-left: 0;
-  padding-right: 0;
-  padding-top: 0;
-  margin-bottom: 1.45rem;
-}
+
 noscript {
   margin-left: 0;
   margin-right: 0;
@@ -470,39 +433,9 @@ noscript {
   padding-top: 0;
   margin-bottom: 1.45rem;
 }
-iframe {
-  margin-left: 0;
-  margin-right: 0;
-  margin-top: 0;
-  padding-bottom: 0;
-  padding-left: 0;
-  padding-right: 0;
-  padding-top: 0;
-  margin-bottom: 1.45rem;
-}
-hr {
-  margin-left: 0;
-  margin-right: 0;
-  margin-top: 0;
-  padding-bottom: 0;
-  padding-left: 0;
-  padding-right: 0;
-  padding-top: 0;
-  margin-bottom: calc(1.45rem - 1px);
-  background: hsla(0, 0%, 0%, 0.2);
-  border: none;
-  height: 1px;
-}
-address {
-  margin-left: 0;
-  margin-right: 0;
-  margin-top: 0;
-  padding-bottom: 0;
-  padding-left: 0;
-  padding-right: 0;
-  padding-top: 0;
-  margin-bottom: 1.45rem;
-}
+
+
+
 b {
   font-weight: bold;
 }
@@ -694,9 +627,6 @@ footer{
   text-align: center;
 }
 
-
-
-
 .row1{
   display:flex;
   justify-content: space-evenly;
@@ -714,54 +644,31 @@ footer{
   transition:color 0.2s ease-out, background 3s ease-in;
   
 }
-
-.landingNavitem{
-  
-  width: 340px;
-  height: 239px;
-  border-radius: 10%;
-  background-color: #EDEDED;
-  
-  
-  
+.landingNav{
+  display:grid; 
 }
-
 .linkitem{
   text-align: center;
-  margin-top:80px;
-  font-size: 20pt;
+ font-size:;
+  
   line-height: 1.2;
   transition:color 0.2s ease-out, background 3s ease-in;
   
 }
 
-.landingNavitem:hover .linkitem{
-
-  background-color: #00A97D;
-  color: #EDEDED;
-
-}
-
-
-.row1 :hover{
-
-  background-color: #00A97D;
-  ;
+.landingNavitem{
+    
+  width: 20vw;
+  height: 10vh;
+  border-radius: 10%;
+  background-color: #EDEDED;
+  text-align: center;
+  justify-content: center;
+  
   
 }
 
-.row2 :hover {
 
-  background-color: #00A97D;
- 
-  
-}
-
-.landingNav{
-  
-  margin-top:100px;
-  margin-bottom:100px;
-}
 
 .extranjerosBadge{
   justify-content: center;
@@ -851,4 +758,8 @@ margin-right: 20px;
   
   width: 169px;
   height: auto;
+}
+
+.info{
+  margin-top:7px
 }

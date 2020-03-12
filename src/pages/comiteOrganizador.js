@@ -11,7 +11,7 @@ const comiteOrganizador = () =>(
     <Layout>
         <SEO title="Home" />
         <Header/>
-        <img src={header_comite_organizador}/>
+        <img style={{width:'100%', height:'auto'}}  src={header_comite_organizador}/>
 
         <div style={{marginLeft:'500px', marginTop:'100px', marginBottom:'100px'}}>
         <h2>COMITÉ ORGANIZADOR</h2>

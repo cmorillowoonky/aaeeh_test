@@ -9,11 +9,11 @@ import React from "react"
 import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
 
-
 import "./layout.css"
 import sponsor1 from "../images/sponsor1.png"
 import sponsor2 from "../images/sponsor2.png"
 import sponsor3 from "../images/sponsor3.png"
+import boton2 from "../images/boton2.png"
 
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`
@@ -28,6 +28,9 @@ const Layout = ({ children }) => {
 
   return (
     <>
+
+
+
       
       <div
         style={{
@@ -38,6 +41,14 @@ const Layout = ({ children }) => {
       >
         <main>{children}</main>
         <footer>
+
+        
+        <a href="https://goo.gl/maps/8v7Yty8wAWToJgSLA"> 
+
+        <img style={{width:'auto', height:'70px', marginBottom:'3rem'}} src={boton2}></img>
+        </a>
+        
+
         <div class="auspicios">
           Auspicios
 

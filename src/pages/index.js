@@ -15,12 +15,12 @@ const IndexPage = () => (
     <Header/>
 
 
-        <div class="banner_container">
-           <img class="banner"alt="banner" src={banner}/>
+        <div style={{width:'100%', height:'auto'}} class="banner_container">
+           <img  class="banner"alt="banner" src={banner}/>
         </div>
     
 
-        <div class="landingNav">
+        <div    class="landingNav">
 
               <div class="row1">
                     <div class="landingNavitem">

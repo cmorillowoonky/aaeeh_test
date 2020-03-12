@@ -1,0 +1,66 @@
+
+.row1{
+    display:flex;
+    justify-content: space-evenly;
+    padding:50px;
+    
+    transition:color 0.2s ease-out, background 3s ease-in;
+  }
+  
+  .row2{
+    display:flex;
+    justify-content: space-evenly ;
+    padding:50px;
+    padding-top:40px;
+    
+    transition:color 0.2s ease-out, background 3s ease-in;
+    
+  }
+  
+  .landingNavitem{
+    
+    width: 340px;
+    height: 239px;
+    border-radius: 10%;
+    background-color: #EDEDED;
+    
+    
+    
+  }
+  
+  .linkitem{
+    text-align: center;
+    margin-top:80px;
+    font-size: 20pt;
+    line-height: 1.2;
+    transition:color 0.2s ease-out, background 3s ease-in;
+    
+  }
+  
+  .landingNavitem:hover .linkitem{
+  
+    background-color: #00A97D;
+    color: #EDEDED;
+  
+  }
+  
+  
+  .row1 :hover{
+  
+    background-color: #00A97D;
+    ;
+    
+  }
+  
+  .row2 :hover {
+  
+    background-color: #00A97D;
+   
+    
+  }
+  
+  .landingNav{
+    
+    margin-top:100px;
+    margin-bottom:100px;
+  }

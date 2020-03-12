@@ -15,12 +15,18 @@ const Contacto = () =>(
     <Layout>
         <SEO title="Home" />
         <Header/>
-        <img src={header_comite_contacto}/>
+        <img style={{width:'100%', height:'auto'}}  src={header_comite_contacto}/>
+        
         <h2 style={{
             paddingLeft:'500px',
             color:'#747474',
             paddingTop:'200px',
-        }}>Inés Escalada, Congreso y Eventos.</h2>
+        }}>Secretaría e Informes</h2>
+        <h3 style={{
+            paddingLeft:'500px',
+            color:'#747474',
+            fontWeight:'400'
+        }}>Inés Escalada, Congreso y Eventos.</h3>
 
         <div class="contacto">
             

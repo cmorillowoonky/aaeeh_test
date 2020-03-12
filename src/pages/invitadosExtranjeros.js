@@ -21,7 +21,7 @@ const InvitadosExtranjeros = () =>(
             </div>
 
             <div class="badgerow2">
-                <b>Dr. Salvatore Piano</b>
+                <b>Prof. Dr. Salvatore Piano</b>
                 <p>Unidad de Medicina Interna y Hepatología</p>
                 <p>Departamento de Medicina - DIMED</p>
                 <p>Universidad de Padua</p>
@@ -31,6 +31,24 @@ const InvitadosExtranjeros = () =>(
         </div>
       
 
+
+        <div class="extranjerosBadge">
+            <div class="badgerow1">
+                <img src={salvatorepiano}/>
+
+            </div>
+
+            <div style={{paddingRight:'11em'}}class="badgerow2">
+                <b>Prof. Dra. María Reig</b>
+                <p>BCLC group</p>
+                <p>Liver Unit – Hospital Clinic</p>
+                <p>University of Barcelona</p>
+                <p>Barcelona</p>
+            </div>
+
+        </div>
+
+       
     </Layout>
 )
 
